@@ -103,10 +103,10 @@ const Home = () => {
         if (data.length > 0) {
             const result = data.map((item, index) => (
                 <tr key={item._id}>
-                    <td className='text-end align-middle'>{item.temperature}</td>
-                    <td className='text-end align-middle'>{item.humidity}</td>
-                    <td className='text-end align-middle'>{item.dust}</td>
-                    <td className='text-end align-middle'>{item.air}</td>
+                    <td className='text-end align-middle'>{item.temperature} °C</td>
+                    <td className='text-end align-middle'>{item.humidity} %</td>
+                    <td className='text-end align-middle'>{item.dust} mg/m3</td>
+                    <td className='text-end align-middle'>{item.air} PPM</td>
                     <td className='text-center align-middle'>{item.date}</td>
                     <td className='text-center align-middle'>{item.time}</td>
                     <td className='d-flex flex-row justify-content-around'>

@@ -28,16 +28,16 @@ const View = () => {
                     <Card.Title className='text-center text-uppercase alert alert-primary fw-bold mb-3 fs-3'>Detail</Card.Title>
                     <ListGroup className='w-100'>
                         <ListGroup.Item variant="primary" className="my-1 fs-5 text-start">
-                            <strong className="fw-bolder">Nhiệt độ:</strong> {data.temperature}
+                            <strong className="fw-bolder">Nhiệt độ:</strong> {data.temperature} °C
                         </ListGroup.Item>
                         <ListGroup.Item variant="primary" className="my-1 fs-5 text-start">
-                            <strong className="fw-bolder">Độ ẩm:</strong> {data.humidity}
+                            <strong className="fw-bolder">Độ ẩm:</strong> {data.humidity} %
                         </ListGroup.Item>
                         <ListGroup.Item variant="primary" className="my-1 fs-5 text-start">
-                            <strong className="fw-bolder">Bụi mịn:</strong> {data.dust}
+                            <strong className="fw-bolder">Bụi mịn:</strong> {data.dust} mg/m3
                         </ListGroup.Item>
                         <ListGroup.Item variant="primary" className="my-1 fs-5 text-start">
-                            <strong className="fw-bolder">Không khí:</strong> {data.air}
+                            <strong className="fw-bolder">Không khí:</strong> {data.air} PPM
                         </ListGroup.Item>
                         <ListGroup.Item variant="primary" className="my-1 fs-5 text-start">
                             <strong className="fw-bolder">Thời gian:</strong> {data.time}
